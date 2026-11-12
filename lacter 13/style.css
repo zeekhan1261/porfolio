@@ -1,0 +1,24 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+display: flex;
+justify-content: center;
+gap: 10px;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+height: 100vh;
+flex-wrap: wrap;
+}
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(158, 118, 146);
+    border: 1px solid black;
+    
+}
